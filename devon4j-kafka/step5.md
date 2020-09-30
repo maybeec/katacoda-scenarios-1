@@ -1,5 +1,5 @@
 Create a new package for the kafka producer and consumer.
-`mkdir -p /root/devonfw/workspaces/main/devon4j-kafka/KafkaSampleApplication/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/`{{execute}
+`mkdir -p /root/devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/`{{execute}
 
 <pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/KafkaSampleApplication/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/SaveEmployeeConsumer.java">
 package com.devonfw.application.employee.employeemanagement.service.impl.kafka;
@@ -66,7 +66,7 @@ public class SaveEmployeeConsumer<K, V> {
 }
 </pre>
 
-<pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/KafkaSampleApplication/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/SaveEmployeMessageProcessor.java">
+<pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/SaveEmployeMessageProcessor.java">
 package com.devonfw.application.employee.employeemanagement.service.impl.kafka;
 
 import javax.inject.Inject;

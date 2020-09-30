@@ -5,6 +5,6 @@
 `/root/kafka/bin/kafka-server-start.sh config/server.properties`{{execute T3}}
 
 #Run the unit test
-`devonfw/workspaces/main/devon4j-kafka/KafkaSampleApplication/core/`{{execute}
+`devonfw/workspaces/main/devon4j-kafka/core/`{{execute}
 
 `mvn clean test -Dtest=com.devonfw.application.employee.employeemanagement.service.impl.rest.KafkaDemoServiceTest`{{execute}
