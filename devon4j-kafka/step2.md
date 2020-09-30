@@ -10,7 +10,7 @@ This java project contains an employee class with some attributes. This class is
 
 The following dependencies have to be added to the pom.xml of the core module. The project already contains these dependencies.
 
-`
+``
 `<dependency>`
 `	<groupId>com.devonfw.java.starters</groupId>`
 `	<artifactId>devon4j-starter-kafka-receiver</artifactId>`
@@ -22,7 +22,7 @@ The following dependencies have to be added to the pom.xml of the core module. T
 `	<version>4.0.3</version>`
 `	<scope>test</scope>`
 `</dependency>`
-`
+``
 
 #Build the project
 
