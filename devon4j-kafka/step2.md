@@ -18,7 +18,7 @@ The starter-kafka-receiver dependency includes the starter-kafka-sender dependen
 The project already contains the dependencies.
 `devonfw/workspaces/main/devon4j-kafka/core/pom.xml`{{open}}
 
-#Build the project
+## Build the project
 
 `devon mvn package -Dmaven.test.skip=true`{{execute}}
 
