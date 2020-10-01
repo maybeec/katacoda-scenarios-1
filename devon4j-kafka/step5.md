@@ -1,5 +1,9 @@
-Create a new package for the kafka producer and consumer.
+Create a new package for the kafka producer and consumer classes.
 `mkdir -p /root/devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/`{{execute}}
+
+Copy the following classes into the IDE by clicking 'Copy to editor'.
+
+The first class contains the consumer, which creates a new employee. The @KafkaListener annotation configures on which topic the consumer have to listen. When the consumer gets a message, the message will be processed using the SaveEmployeMessageProcessor class.
 
 <pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/SaveEmployeeConsumer.java">
 package com.devonfw.application.employee.employeemanagement.service.impl.kafka;
@@ -65,6 +69,8 @@ public class SaveEmployeeConsumer<K, V> {
   }
 }
 </pre>
+
+The SaveEmployeMessageProcessor class processes a message. It first converts the message into an employee object. Then the employee will be saved to the database.
 
 <pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/SaveEmployeMessageProcessor.java">
 package com.devonfw.application.employee.employeemanagement.service.impl.kafka;

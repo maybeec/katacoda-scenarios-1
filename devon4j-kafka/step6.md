@@ -1,3 +1,5 @@
+The DeleteEmployeeMessageConsumer and DeleteEmployeeMessageProcessor classes are structured like the classes in the previous step. They contain the functionality for deleting an employee.
+
 <pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/DeleteEmployeeMessageConsumer.java">
 package com.devonfw.application.employee.employeemanagement.service.impl.kafka;
 

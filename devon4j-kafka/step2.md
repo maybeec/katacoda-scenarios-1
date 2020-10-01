@@ -6,17 +6,16 @@ Inside the devonfw directory navigate to the folder 'workspaces/main/devon4j-kaf
 This folder contains a zipped java project. Unzip the project.
 `unzip KafkaSampleApplication.zip`{{execute}}
 
-This java project contains an employee class with some attributes. This class is used to generate the frontend files later in this tutorial.
+This java project contains a simple application which can create and delete employees. You can find the source code in the github repository https://github.com/devonfw-sample/devon4j-kafka-employeeapp.
 
-The following dependencies have to be added to the pom.xml of the core module.
+To use devon4j-kafka you have to add required starter dependencies to the pom.xml file of the core module.
 
 `groupId: com.devonfw.java.starters`
 `artifactId: devon4j-starter-kafka-receiver`
 
-`groupId: org.awaitility`
-`artifactId: awaitility`
+The starter-kafka-receiver dependency includes the starter-kafka-sender dependency which is required for producing messages.
 
-The project already contains these dependencies.
+The project already contains the dependencies.
 `devonfw/workspaces/main/devon4j-kafka/core/pom.xml`{{open}}
 
 #Build the project
