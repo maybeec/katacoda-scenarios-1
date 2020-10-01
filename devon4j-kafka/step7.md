@@ -5,6 +5,8 @@
 `/root/kafka/bin/kafka-server-start.sh /root/kafka/config/server.properties`{{execute T3}}
 
 ## Run the unit test
+Switch back to the first terminal and run the test.
+
 `cd devonfw/workspaces/main/devon4j-kafka/core/`{{execute}}
 
 `mvn clean test -Dtest=com.devonfw.application.employee.employeemanagement.service.impl.rest.KafkaDemoServiceTest`{{execute}}
